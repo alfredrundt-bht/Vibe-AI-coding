@@ -2,7 +2,7 @@
 
 ## Ziel
 
-Eine Benutzeroberfläche für meinen Passwortmanager AlfPass.
+Eine Benutzeroberfläche für meinen Passwortmanager AlfPASS.
 
 
 ## Verwendetes Tool
@@ -20,8 +20,8 @@ Prompt 1:
 Erstelle für mich ein Design für eine nach aktuellen standarts erfüllenden Webanwendung für einen Passwortmanager mit dem Namen „AlfPass“.
 Es soll folgendes enthalten sein :
 - Login seite 
-- Registrierung seite 
-- ein Dashboard mit einem überblic
+- Registrierungsseite 
+- ein Dashboard mit einem überblick
 - Passwortübersicht (Passwort-Tresor mit den namen der websites allerdings in übersichtlich ohne www. und https etc)
 - Passwort hinzufügen
 - Passwort bearbeiten

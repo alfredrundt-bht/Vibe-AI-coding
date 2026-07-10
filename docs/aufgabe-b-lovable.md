@@ -2,7 +2,7 @@
 
 ## Ziel
 
-Eine funktionsfähigen Webanwendung das so ausschaut wie das vorher entwickelte UI-Design.
+Eine funktionsfähigen Webanwendung das so ausschaut wie das vorher entwickelte UI-Design von Google Stitch.
 
 ## Projekt
 
@@ -14,7 +14,7 @@ Lovable
 
 ## Ziel
 
-Von Google Stitch entworfene Benutzeroberfläche soll als funktionierende Webanwendung umgesetzt werden.
+Von Google Stitch entworfenes Design soll als funktionierende Webanwendung umgesetzt werden mit frontend und Backend 
 
 ## Verwendete Prompts
 
@@ -36,7 +36,7 @@ Diese Funktionen sollen umgesetzt werden:
 - Passwörter können angelegt, bearbeitet und gelöscht werden.
 - Passwörter können nach Kategorien sortiert werden (Arbeit, Privat, Banking, Social Media).
 - Ein Passwortgenerator erstellt sichere Passwörter.
-- Die Passwortstärke wird angezeigt (in rot mit dem wort schwach wenn schwar in gelb mit dem Wort Mittel und in grün mit dem wort stark) 
+- Die Passwortstärke wird angezeigt (in rot mit dem wort schwach wenn schwach in gelb mit dem Wort Mittel und in grün mit dem wort stark) 
 - Passwörter können mit einem Klick kopiert werden.
 - Unterstützung für Hell- und Dunkelmodus.
 - Zwei-Faktor-Authentifizierung als vorbereitete Funktion.
@@ -108,7 +108,30 @@ Schriftgröße.
 
 Füge unter den Einstellungen zusammen was am besten unter einem Punkt zusammen gehört zum Beispiel sicherheit und mach dann dort die weiteren Unterpunkte
 
---- Es wurde leider nichts geändert. Die Seite Einstellungen ist weiterhin leer und meine Lovable credits sind ausgeschöpft
+--- Es wurde leider nichts geändert. Die Seite Einstellungen ist weiterhin leer obwohl ich in dem Prompt geschrieben habe er soll das ergänzen und meine Lovable credits sind ausgeschöpft
+
+Prompt 3 
+
+Die Seite /einstellungen wurde nicht mehr gerendert und bleibt leer. Es scheint einen Laufzeitfehler oder React-Fehler zu geben. Bitte behebe den Fehler und stelle sicher, dass alle Einstellungen korrekt angezeigt werden. Die bestehende Funktionalität soll erhalten bleiben.
+
+Außerdem füge noch eine Seite hinzu mit einem Sicherheitscenter
+
+Darin könnte zum Beispiel stehen:
+
+Sicherheitsbewertung des Tresors (0–100)
+
+Anzahl schwacher Passwörter
+
+Doppelte Passwörter
+
+Kompromittierte Passwörter
+
+Empfehlung zur Verbesserung
+
+
+Fixingbenachrichtigung von Lovable: 
+
+Beide Fixes sind live: Die Einstellungsseite bleibt nicht mehr leer (Ursache war ein fehlender Profildatensatz — getProfile() legt jetzt bei bestehender Session automatisch das Standardprofil an), und das neue Sicherheitscenter unter /sicherheit zeigt Score (0–100), schwache/doppelte/kompromittierte Passwörter und Empfehlungen.
 
 ## Ergebnis
 
