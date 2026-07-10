@@ -8,6 +8,7 @@ AlfPASS Secure Vault
 
 Das AlfPASS-Projekt aus lovable wird um eine verteilte Architektur erweitert.
 Dabei sollen mehrere getrennt laufende Prozesse miteinander kommunizieren. 
+AlfPASS soll Passwörter sicher verwalten und die Verarbeitung von der übrigen Anwendungslogik trennen.
 
 ## Geplante Architektur
 
@@ -16,6 +17,16 @@ Frontend im Browser
 → separater Encryption-Worker auf Port 3002  
 → Ergebnis zurück an das Backend  
 → Antwort zurück an das Frontend
+
+## Techstack
+
+- Frontend: React + TanStack Start
+- Backend: Node.js (node:http)
+- Encryption-Worker: Node.js (node:crypto)
+- Kommunikation: HTTP und JSON
+- Versionsverwaltung: Git und GitHub
+- Entwicklungsumgebung: Visual Studio Code
+- KI-Unterstützung: Claude Code (CLI)
 
 ## Ausgangssituation
 
@@ -35,7 +46,8 @@ Für Aufgabe C wurde der separate Branch `teil-c-distributed` angelegt. Dadurch 
 
 ## Verwendetes Werkzeug
 
-Claude Code wird lokal in Visual Studio Code verwendet.
+Für die Umsetzung von Teil C wurde Claude Code als CLI verwendet.
+Zusätzlich wurde Visual Studio Code als Entwicklungsumgebung installiert und aktiv genutzt.
 
 ## Vorgehensweise
 
